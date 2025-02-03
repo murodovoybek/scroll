@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    background-color: black;
+}
+.header__nav{
+    padding: 25px;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+}
+.header__box{
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 220px;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+.header__input{
+    border: none;
+}
+.main__box{
+    background-color: black;
+}
+.hero{
+    background-image: url(./images/slider2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+.hero__button{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+    width: 109px;
+    height: 55px;
+    margin-top: 88px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #76b900;
+}
+.katalog{
+    display: flex;
+    gap: 40px;
+}
+.box1{
+    margin-top: 40px;
+    width: 290px;
+    height: 302px;
+    box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+.katalog__title{
+    padding-top: 41px;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: center;
+}
+.hero__title{
+    padding-top: 20px;
+    width: 178px;
+    margin: 0 auto;
+}
+.shop{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 97px;
+}
+.hero3__box{
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+}
+.hero__h3{
+    padding-left: 40px;
+    color: rgb(103, 185, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+
+}
+.hero__text3{
+    padding-top: 28px;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+
+}
+.hero3__btn{
+    margin-top: 58px;
+    margin-left: 40px;
+    border: none;
+    width: 233px;
+    height: 62px;
+    background-color: #76b900;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+}
+.footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footer__text{
+    color: rgb(102, 102, 102);
+font-family: Inter;
+font-size: 18px;
+font-weight: 800;
+line-height: 22px;
+}
